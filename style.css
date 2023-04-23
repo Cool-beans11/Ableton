@@ -1,0 +1,508 @@
+@font-face {
+    font-family: "Dongle";
+    src: url("https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&display=swap");
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    height: fit-content;
+    font-family: "Dongle";
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    background-color: white;
+    width: 1600px;
+    height: fit-content;
+    padding-bottom: 150px;
+}
+
+header {
+    display: flex;
+    height: 70px;
+    border-bottom: solid gainsboro 2px;
+}
+
+#top_bar {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#left_top {
+    margin-left: 40px;
+    width: 75%;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+#logo {
+    width: 65px;
+    height: 65px;
+}
+
+#right_top {
+    width: 25%;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation {
+    font-family: "Dongle";
+    font-size: 30px;
+    background-color: white;
+    outline-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.Trial {
+    font-family: "Dongle";
+    font-size: 25px;
+    background-color: white;
+    outline-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#Try {
+    font-size: 30px;
+    color: hsl(219, 100%, 50%)
+}
+
+#info {
+    display: flex;
+    gap: 20px;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 2;
+    /*opacity: 0.2; */
+}
+
+.info1 {
+    font-family: "Dongle";
+    font-size: 24px;
+    background-color: white;
+    outline-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#container-image {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#main-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    width:1350px;
+    background-image: url(https://images.pexels.com/photos/8198567/pexels-photo-8198567.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+#title {
+    font-size: 200px;
+    color: hsl(0, 100%, 70%);
+    font-weight: 300;
+}
+
+#desc1 {
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#desc2 {
+    margin-top: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#mini-desc1 {
+    width: 50%;
+    font-size: 42px;
+    line-height: 40px;
+}
+
+#mini-desc2 {
+    margin-top: 20px;
+    width: 50%;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.different {
+    color: hsl(219, 100%, 50%);
+}
+
+#images {
+    margin-top: 150px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+}
+
+#color {
+    background-color: hsl(64, 100%, 85%);
+    width: 60%;
+    height: 880px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#random1 {
+    width: 500px;
+    height: 400px;
+    margin-right: 150px;
+    object-fit: cover;
+}
+
+#random2 {
+    position: absolute;
+    object-fit: cover;
+    height: 650px;
+    width: 660px;
+    margin-left: 150px;
+    z-index: 1;
+    right: 940px;
+}
+
+#video-container {
+    margin-top: 120px;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#video {
+    width: 50%;
+    height: 460px;
+}
+
+#vidcaption {
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 50%;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#img-section2 {
+    margin-top: 150px;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#color2 {
+    background-color: #b6ffc0;
+    width: 60%;
+    height: 1250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 150px;
+}
+
+.color2-img {
+    width: 550px;
+    height: 400px;
+    object-fit: cover;
+    margin-left: 150px;
+}
+
+#color2-img1 {
+    position: relative;
+    z-index: 1;
+    width: 630px;
+    height: 700px;
+    right: 130px;
+    top: 300px;
+    object-fit: cover;
+}
+
+#picture-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#picture {
+    width: 85%;
+    object-fit: cover;
+    height: 770px;
+}
+
+#picture-plate {
+    margin-top: 100px;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#picture1 {
+    background-color: #d5b3ff;
+    width: 60%;
+    height: 850px;
+}
+
+#picture2 {
+    position: relative;
+    width: 300px;
+    width: 533.33px;
+    height: 400px;
+    top: 210px;
+    right: 150px;
+    object-fit: cover;
+}
+
+#picture3 {
+    position: relative;
+    width: 666.66px;
+    height: 666.66px;
+    object-fit: cover;
+    bottom: 320px;
+    left: 614px;
+}
+
+#figure-container {
+    margin-top: 150px;
+    height: fit-content;
+    padding-bottom: 130px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid gainsboro 2px;
+}
+
+#figure {
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+}
+
+#figure1 {
+    object-fit: cover;
+    height: 666.66px;
+    width: 100%;
+}
+
+#figcaption {
+    width: 40%;
+    background-color: #b1c5ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#desc3 {
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: 0px;
+    word-spacing: -3px;
+}
+
+#text {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+#latest {
+    color: #0000ff;
+    font-size: 46px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#latest::after {
+    content: "\003E"
+}
+
+footer {
+    margin-top: 100px;
+    margin-left: 120px;
+    margin-right: 100px;
+}
+
+#foot-head {
+    font-size: 80px;
+    font-weight: 400;
+    margin-bottom: 30px
+}
+
+#foot-desc {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+    row-gap: 50px;
+}
+
+.links1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 30px;
+    grid-area: 1 / 1 / 1 / 1 ;
+}
+
+.link-list {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.link-list::after {
+    content: "\003E";
+}
+
+aside {
+    display: flex;
+    gap: 10px;
+}
+
+.link-head {
+    margin-top: 0px;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.links2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    line-height: 30px;
+    grid-area: 1 / 2 / 1 / 2;
+}
+
+.links3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    line-height: 30px;
+    grid-area: 1 / 3 / 1 / 3;
+}
+
+.links4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    line-height: 30px;
+    grid-area: 2 / 1 / 2 / 1;
+}
+
+.links5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    line-height: 30px;
+    grid-area: 2 / 2 / 2 / 2;
+}
+
+.links6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    line-height: 30px;
+    grid-area: 2 / 3 / 2 / 3;
+}
+
+.link-desc {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+#email-sign {
+    height: 50px;
+    margin-left: 0px;
+    width: 100px;
+    font-family: "Dongle";
+    font-size: 30px;
+    background-color: #0000ff;
+    color: white
+}
+
+#Email {
+    font-size: 30px; 
+    font-family: "Dongle"; 
+    margin-right: 0px;
+    width: 320px;
+    background-color: rgb(235, 235, 235);
+}
+
+#language {
+    width: 130px;
+    height: 30px;
+    background-color: rgb(235, 235, 235);
+}
+
+#location {
+    width: 200px;
+    height: 30px;
+    background-color: rgb(235, 235, 235);
+}
+
+#more-info {
+    display: flex;
+}
+
+
+#more-info1 {
+    display: flex;
+    gap: 20px;
+    width: 70%;
+    height: 30px;
+}
+
+.more-info-links {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+#more-info2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-end;
+    width: 30%;
+    font-size: 22px;
+    height: 30px;
+}
+
+#logo-company {
+    width: 60px;
+    height: 60px;
+}
